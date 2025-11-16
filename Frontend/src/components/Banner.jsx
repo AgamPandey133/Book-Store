@@ -15,7 +15,7 @@ function Banner() {
 
           <p className="text-xl">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+            eiusmod tempor incididunt ut labore et dolore magna aliqua.
           </p>
 
           {/* group input + button with small gap */}
@@ -48,7 +48,7 @@ function Banner() {
 
             {/* small gap between input and button */}
             <button className="btn mt-6 btn-active btn-secondary self-start">
-              Secondary
+              Get Started
             </button>
           </div>
         </div>
@@ -59,20 +59,17 @@ function Banner() {
         <img src={banner} alt="banner" className="rounded-lg w-120 h-120 mt-5" />
       </div> */}
       <div className="order-1 w-full md:w-1/2">
-  <img
-    src="banner.png"
-    alt="banner"
-    className="rounded-lg w-full h-auto mt-5 object-cover"
-  />
-</div>
+        <img
+          src="banner.png"
+          alt="banner"
+          className="rounded-lg w-full h-auto mt-5 object-cover"
+        />
+      </div>
     </div>
   );
 }
 
-export default Banner; 
-
-
-
+export default Banner;
 
 // import React from "react";
 // import banner from "../../public/banner.jpg"
@@ -93,7 +90,7 @@ export default Banner;
 //               enim ad minim veniam, quis nostrud exercitation ullamco laboris
 //               nisi ut aliquip ex ea commodo consequat.
 //             </p>
-          
+
 //           <label className="input validator">
 //             <svg
 //               className="h-[1em] opacity-50"
